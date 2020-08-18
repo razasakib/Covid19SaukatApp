@@ -1,0 +1,24 @@
+<div class="container">
+    <form [formGroup]="myReactiveForm">
+        <div>
+            <input type="text" class="form-control" formControlName="uname" placeholder="EnterName..">
+        </div>
+        <div>
+            <input type="text" class="form-control"   formControlName="uemail" placeholder="Enter Email..">
+        </div>
+        <div>
+            <select name="" id="" class="form-control"  formControlName="city">
+                <option>--Select--</option>
+                <option>Hyd</option>
+                <option>BBSR</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" value="grnder" id=""  formControlName="Male">Male
+            <input type="radio" value="grnder" id=""  formControlName="Female">Female
+        </div>
+        <div>
+            <button class="btn btn-danger">Submit</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+  padding: 2%;
+
+ 
+  }
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+ th.mat-header-cell{
+     background-color: chartreuse;
+  }
